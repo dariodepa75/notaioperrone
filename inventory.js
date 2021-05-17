@@ -10,6 +10,7 @@
 
 'use strict';
 
+
 const config = require('./config');
 const stripe = require('stripe')(config.stripe.secretKey);
 // For product retrieval and listing set API version to 2018-02-28 so that skus are returned.
